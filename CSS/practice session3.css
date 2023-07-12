@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(48, 218, 48);
+
+}
+.main_form{
+   /* border: 5px double chartreuse;*/
+    width: 400px;
+    padding: 20px;
+    margin: 40px;
+}

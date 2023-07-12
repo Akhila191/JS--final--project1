@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "connect"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Edyoda codes"
+		},
+		{
+			"path": "../img"
+		},
+		{
+			"path": "../javascript"
+		},
+		{
+			"path": "../JS"
+		},
+		{
+			"path": "../CSS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "javascript"
+	}
+}

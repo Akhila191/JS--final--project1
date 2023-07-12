@@ -1,0 +1,206 @@
+/*******/
+/*Common*/
+/*******/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 500px;
+    font-family:"Roboto",sans-serif,Arial;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #5243c0;
+}
+a:hover{
+opacity: 0.9;
+}
+ul {
+    padding:0;
+    margin:0;
+}
+.common-btn{
+    background-color: #ffD8DB;
+    border-radius: 20px;
+    padding: 14px  31px;
+}
+/*any element having common button and dark class*/
+.common-btn.dark{
+    background: #5243c0;
+    color:#fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container{
+    max-width:1000px;
+    padding: 0 30px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/******/
+/*
+header*/
+/******/
+header{
+    background: #f2f2f2;
+    padding:10px 0; 
+}
+header img{
+    width:100px;
+}
+header ul li{
+    display:inline-block;
+    padding: 10px;
+}
+header ul li a{
+    color:grey;
+    margin:0 15px;
+    padding-bottom: 5px;
+}
+header ul li a:hover,
+header ul li a,active{
+    border-bottom: 4px solid #5243cB;
+    color: #5243cb;
+}
+/******main****/
+main.container{
+   flex-direction:row-reverse;
+   
+}
+main.content,
+main.banner{
+    padding: 70px;
+    
+}
+
+main .content{
+    width: 600px;
+}
+ main.content div{
+    display: flex;
+    margin: 20px 0 30px;
+ }
+ main.content div a{
+    margin-right: 20px;
+ }
+ main .content div button{
+    width: 50px;
+    height: 50px;
+    margin:0 10px;
+    border: 10px;
+    border-radius: 50%;
+    background-image: url(img/arrow-up.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 10px;
+ }
+ main .content div button:last-child{
+    background-image: url(img/arrow-down.png);
+ }
+ main.content ul li{
+    background:#fafafa;
+    padding: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    border: radius 10px;
+    box-shadow: 0px 0px 8px 4px #f1f1f1;
+    transition: all 0.25;
+ }
+ main.content ul li:hover,
+ main.content ul li.active{
+    background: #fff;
+    cursor: pointer;
+    transform:scale(1.1);
+ }
+ main.content ul li:last-child{
+    margin-bottom: 0px;
+ }
+ main.content ul li .title{
+    width: 130px;
+ }
+ main .content ul li .date{
+    color: #8c8a85;
+ }
+ main .content ul li .tag{
+    width: 23px;
+    height:14px;
+    border-radius: 10px;
+    /*background:pink;*/
+    display: inline-block;
+  }
+ main.content ul li .tag.lightred{
+    background: #fed7da;
+ }
+ main.content ul li.tag.red{
+    background: #fa7448;
+ }
+ main.content ul li .tag.green{
+    background: #9ad005;
+    } 
+    
+    main.content ul li.tag.lightorange{
+  
+       background: #faa1a0; 
+    }
+    main .banner {
+       /* background-color: red;*/
+       text-align: center;
+    }
+    main.banner img{
+          width: 70%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
